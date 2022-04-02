@@ -1,0 +1,27 @@
+main{
+     background:rgba(0, 0, 255, 0.479);
+}
+.pokemons{
+    width: 940px;
+    margin: 0 auto;
+    padding: 0px;
+}
+.pokemons img{
+    width: 115%;
+}
+.pokemons p{
+    margin-top: 15px;
+    text-align: left;
+}
+.pokemons li{
+    border: 2px solid black;
+    display: inline-block;
+    padding: 3% 5%;
+    text-align: center;
+    width: 30%;
+    height: 500px;
+    margin: 1% 1.5%;
+    vertical-align: top;
+    box-sizing: border-box;
+    border-radius:10px;
+}

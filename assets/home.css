@@ -1,3 +1,4 @@
+/*HOME PAGE CSS*/ 
 /*Header CSS */
 body{
     font-family: 'Montserrat', sans-serif;
@@ -28,12 +29,31 @@ nav a{
     color: black;
 }
 
-
-
-
-
-
-/*Footer CSS */
+/* Main css */
+main{
+    background:rgba(0, 0, 255, 0.479);
+}
+main h1 {
+    text-align: center;
+    font-weight: bold;
+    font-size: 40px;
+}
+.principal {
+    width: 70%;
+    margin: auto;
+    padding: 5%;
+}
+.pokemonBall{
+    width: 30%;
+    float: left;
+}
+section p{
+    text-align:justify;
+    margin-top: 5%;
+    width: 450px;
+    display: inline-block;
+}
+/*Footer css */
 footer{
     background:linear-gradient(rgba(0, 0, 255, 0.479), black);
     position: relative;
