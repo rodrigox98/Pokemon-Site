@@ -1,0 +1,16 @@
+main{
+    background:rgba(0, 0, 255, 0.479);
+}
+section h1{
+    text-align:center;
+    font-size: 2em;
+    margin-bottom: 2em;
+}
+.facts{
+    font-size: 1.5em;
+    padding: 5%;
+    margin-left: 7%;
+}
+.facts li::before{
+    content: "*";
+}

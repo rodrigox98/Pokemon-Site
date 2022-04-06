@@ -1,0 +1,37 @@
+main{
+    background:rgba(0, 0, 255, 0.479);
+}
+
+main h1{
+    text-align: center;
+    font-size: 2.3em;
+    padding: 1% 0;
+    margin-bottom: 2em;
+}
+
+main .listBox{
+    margin-top: -1%;
+    margin-left: 10%;
+    padding: 1em;
+    border: 2px solid black;
+    border-radius: 15px;
+    width: 30%;
+    background:rgba(89, 0, 255, 0.11);
+    color: rgb(223, 208, 208);
+    box-shadow: 8px 8px 25px 3px black;
+}
+.listBox:hover{
+    box-shadow: 8px 8px 15px 7px white;
+}
+.list{
+    font-size: 1.2em;
+}
+.yearPokemon{
+    margin-top: 1em;
+    margin-bottom: 1em;
+}
+.gamePokemon{
+    margin-left: 1em;
+}
+
+

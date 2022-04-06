@@ -1,5 +1,8 @@
 /*HOME PAGE CSS*/ 
 /*Header CSS */
+*{
+    color:whitesmoke;
+}
 body{
     font-family: 'Montserrat', sans-serif;
 }
@@ -17,7 +20,7 @@ header{
 nav{
     position: absolute;
     top: 50%;
-    left: 35%;
+    left: 45%;
     font-size: 1.5em;
 }
 nav li{
@@ -48,6 +51,7 @@ main h1 {
     float: left;
 }
 section p{
+    font-size: 1.2em;
     text-align:justify;
     margin-top: 5%;
     width: 450px;
@@ -62,5 +66,9 @@ footer{
     clear: left;
     margin-top: 40px 0 0 0;
     text-align: center;
-    
+}
+footer ul{
+    position: absolute;
+    bottom: 4em;
+    left: 42%;
 }
