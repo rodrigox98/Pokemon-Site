@@ -66,9 +66,13 @@ footer{
     clear: left;
     margin-top: 40px 0 0 0;
     text-align: center;
+    border-top: 1px solid white;
 }
 footer ul{
     position: absolute;
     bottom: 4em;
     left: 42%;
+}
+footer a{
+    text-decoration: none;
 }
